@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 .container {
@@ -56,15 +57,16 @@ html, body {
 .libary {
     display: grid;
     justify-content: center;
-    grid-template-rows: 1fr 1fr 1fr;
-    max-height: 70vh;
+    grid-template-rows: 1fr;
     gap: 15px;
+    margin-bottom: 100px;
 }
 
 .baris {
     display: flex;
     gap: 15px;
     max-height: 30vh;
+    justify-content: center;
 }
 
 .baris img {
@@ -175,6 +177,7 @@ html, body {
 .row-1 img {
     max-width: 600px;
     max-height: 300px;
+    border-radius: 8px;
 }
 
 .source {
@@ -184,4 +187,27 @@ html, body {
 
 a {
     color: #FFFFFF;
+}
+
+.wisata-images {
+    padding-top: 80px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(Images/pulau-beras-basah.JPG);
+    margin: 15px 15px;
+    border-radius: 8px;
+    background-size: auto;
+}
+
+.beras-basah {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
